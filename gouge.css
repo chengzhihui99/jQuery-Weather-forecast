@@ -1,0 +1,58 @@
+*{padding: 0;margin: 0;}
+
+body{
+	background-color: skyblue;
+}
+
+h2{
+	text-align: center;
+	margin: 60px 0 35px 0;
+	font-size: 40px;
+}
+.search{
+	width: 500px;
+	margin: 0 auto;
+	position: relative;
+}
+.search input{
+	width: 500px;
+	height: 35px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding-left:15px ;
+    box-sizing: border-box;
+	font-size: 17px;
+}
+.search button{
+	background-color: transparent;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAUVBMVEUAAABVVVVAQEBgYGCVlZV2dnaUlJSPj4+Tk5OXl5eWlpaTk5OXl5eZmZmZmZmZmZmXl5eZmZmZmZmZmZmZmZmZmZmXl5eZmZmXl5eYmJiZmZk6/lBFAAAAGnRSTlMAAwQIDA0TICExM0Bdf4mn0N7h5fn6+/z9/Qgf8tAAAABzSURBVHhevZBJDoAgEARxVxBQAcH+/0ONZg6i4MlYp04qs7IfGbSxRg93UUqHAyeLWEh4xWuuPGTcx3lxBuFd1E1DUVLQV2HAKXGYq7CoKTWw2YrsjMxWQWTuwNSmLl83Mo9fjYHMg1ezdCxp5p6lqdjH7FsyCL0LtOjJAAAAAElFTkSuQmCC) no-repeat center center;
+	width: 35px;
+	height: 35px;
+	border: none;
+	position: absolute;
+	top: 0;
+	right: 8px;
+	cursor: pointer;
+}
+table{
+	width: 1000px;
+	margin: 50px auto;
+	margin-bottom: 35px;
+	text-align: center;
+	border: 1px solid rgba(0,0,0,0.3);
+	color: whitesmoke;
+	font-size: 18px;
+}
+thead{
+	font-size: 20px;
+	font-weight: bold;
+}
+table tr{
+	height: 50px;
+}
+p{
+	text-align: center;
+	font-size: 18px;
+	color: white;
+	margin-bottom: 10px;
+}
